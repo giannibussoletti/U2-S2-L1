@@ -1,10 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>BOOTSTRAP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous" />
   </head>
   <body>
     <h1>Bootstrap</h1>
@@ -41,7 +45,47 @@
           Il "problema" di bootstrap è che non è molto "personalizzabile" a livello di
           impaginazione.
         </p>
+        <h3>Utility class</h3>
+        <p>
+          Per buona parte si tratta di capire ed imparare varie classi che applicano singole
+          proprietà. Così ci ritroviamo con un elemento con multiple classi ma che sappiamo che
+          funziona.
+        </p>
+        <a target="_blank" href="https://getbootstrap.com">Bootstrap DOCS</a>
+        <p>
+          Bootstrap utilizza un sistema a 12 colonne per creare i suoi layout, 12 perché è un numero
+          divisibile per tanti altri numeri. Ci sono tre elementi che lavorano in sincronia il
+          CONTAINER, la ROW e la COL
+        </p>
+
+        <div class="container">
+          Questo è un elemento di blocco generale atto a contenere le ROWS
+          <div class="row">
+            <div class="col text-center">
+              <img src="https://placecats.com/400/400" />
+            </div>
+            <div class="col text-center">
+              <img src="https://placecats.com/400/400" />
+            </div>
+            <div class="col text-center">
+              <img src="https://placecats.com/400/400" />
+            </div>
+            <div class="col text-center">
+              <img src="https://placecats.com/400/400" />
+            </div>
+            <div class="col text-center">
+              <img src="https://placecats.com/400/400" />
+            </div>
+            <div class="col text-center">
+              <img src="https://placecats.com/400/400" />
+            </div>
+          </div>
+        </div>
       </div>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
   </body>
 </html>
